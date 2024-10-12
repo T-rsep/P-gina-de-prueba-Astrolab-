@@ -1,0 +1,121 @@
+*{
+    margin: 0px;   
+}
+header{
+    display: flex;
+
+    background-color: black;
+    padding: 10px;
+    height: 70px;
+    margin: 0;
+    align-items: center;
+}
+header>*{
+    display: flex;
+    width: 450px;
+}
+.superior{
+    margin-left: 550px;
+    margin-right: 20px; 
+    
+}
+form{
+    margin-left: 30px;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+
+}
+.as{
+    padding-inline-start:43px;
+}
+#imagen{
+    height: 100px;
+    margin-left: 20px;
+}
+.lab{  
+    margin-top: 40px;
+    top: 10px;
+}
+.logo{
+    display: flex;
+    align-items: center; 
+
+}
+#principal{
+    display: flex;
+    background-image:url("Universo.jpg"); 
+    background-size:cover;
+    height: 500px;
+}
+#principal h1{
+    display: flex;
+    color: rgb(255, 255, 255);
+    padding-inline-start:80px;
+    padding-inline-end:1px;
+    align-items: center;
+    font-size: 50px;
+}
+
+#busqueda{
+    display: inline;
+    color: rgba(255, 255, 255, 0.434);
+    width: 15%; 
+
+}
+.bus{
+    width: 150px;
+    background: none;
+    color: aliceblue;
+    border-radius: 5px;
+    border : 1px solid rgb(255, 255, 255);
+    overflow: hidden;
+    height: 20px;
+    padding-inline-start: 6px;
+}
+body{
+    background-image: url("tierra.jpg");
+    background-size: cover;
+}
+.contacto{
+    backdrop-filter: blur(3px);
+    background-color: rgba(0, 0, 0, 0.192);
+    text-align: center;
+    align-items: center;
+    margin: 25%;
+    margin-top: 100px;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 30px;
+    
+}
+div{
+    height: 20px;
+    margin: 20px;
+}
+h1{
+
+    font-size: 50px;
+    margin: 20px;
+    display: inline;
+    color: white;
+}
+p{
+    font-size: 20px;
+    margin: 20px;
+    display: inline;
+    color: rgb(255, 255, 255);
+} 
+
+.poco{
+    height: 0px;
+}
+
+.alo{
+    height: 90px;
+}
+.mucho{
+    height: 117px;
+}

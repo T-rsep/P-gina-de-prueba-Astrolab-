@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astrolab</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="astrolab.ico">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="Logo"> 
+            <img src="astrolab.png" alt="Logo de Astrolab" id="imagen">
+            <h3 class="lab">Astro lab</h3>  
+        </a>
+        
+        <nav class="superior"> 
+            <a class="as" href="#principal">Principal</a>
+            <a class="as" href="Sobre nosotros.html">Sobre nosotros</a>
+            <span></span>
+       <form class="form">
+         <input type="text" id="datalist" list="datalist-queries" placeholder="Buscar...">
+         <label id="busqueda"></label>
+         <datalist id="datalist-queries">
+            
+            <option value="Que es una Galaxia"></option>
+            <option value="Que es una estrella"></option>
+            <option value="Que son los Planetas"></option>
+            <option value="Teoría del Big Bang"></option>
+            <option value="2 lunas en la tierra"></option>
+            <option value="Se acerca un meteorito"></option>
+            <option value="Alineamiento de planetas"></option>
+            <option value="Eclipse solar en Chile"></option>
+         </datalist>
+        </form>
+    </nav> 
+        
+    </header>
+    <main>
+        <article id="principal">
+            <h1>EXPANDE TUS CONOCIMIENTOS</h1>
+            <div></div>
+
+        </article>
+
+        <article id="negro">
+        <h2 class="ultima">Ultimas Noticias:</h2>
+        <a class="ultima" id="mover" href="https://www.nasa.gov/news/all-news/">Más Noticias: </a>
+       </article> 
+        
+       <article id="noticias">    
+        <div class="notis">
+            <div></div>
+           
+            <a href="Noticia 1.html">
+
+                <img class="fotos" src="2 lunas.png" alt="Imagen de las 2 lunas en la tierra">
+
+            </a>
+
+            <a href="Noticia 2.html">
+                <img class="fotos" id="mov" src="Meteorito.jpg" alt="imagen de un Meteorito">
+            </a>
+            <div></div>
+            <a href="Noticia 3.html">
+                <img class="fotos" src="alinea.jpg" alt="Imagen del alineamiento planetario" >
+            </a>
+            
+            <a href="Noticia 4.html">
+                <img class="fotos" src="eclipse.png" alt="imagen de un eclipse">
+            </a>
+        </div>
+        <div></div>
+        </article>
+             <article class="intereses">
+            <div class="lu"></div>
+            <div id="centro"><h1></h1></div>
+            <article class="centrito">
+            <h1 class="blanco">El conocimiento está</h1>
+            <div class="menu">
+                <div class="toggle"><ion-icon name="add-outline" id="icon"></ion-icon></div>
+                <li style="--i:0;">
+                    <a href="Planetas.html"><ion-icon name="planet-outline"></ion-icon></a>
+                </li>
+                <li style="--i:1;">
+                    <a href="Estrellas.html"><ion-icon name="sparkles-outline"></ion-icon></a>
+                </li>
+                <li style="--i:2;">
+                    <a href="Teoría.html"><ion-icon name="logo-electron"></ion-icon></a>
+                </li>
+                <li style="--i:3;">
+                    <a href="Galaxia.html"><ion-icon name="logo-react"></ion-icon></a>
+                </li>
+
+
+                <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+                <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+                <script>let toggle = document.querySelector (".toggle");
+                        let menu = document.querySelector (".menu");
+                        toggle.onclick = function(){
+                            menu.classList.toggle("active")
+                        }
+                </script>
+            </div>
+            <h1 class="blanco">a 1 click de distancia.</h1>
+        </article>
+        </article>
+        <article id="sob-fondo">
+            <article class="color">
+            <div >
+                <img src="logoblanco.png" alt="Logo de astrolab" class="log">
+            </div>
+
+            
+            <h2 class="nosotros1" id="quienes">¿Quienes somos?</h2>
+            <div class="noso"></div>
+            <p class="nosotros1" > En Astrolab, somos un equipo apasionado de astrónomos, educadores y divulgadores científicos comprometidos con la enseñanza y la divulgación de la astronomía. Nuestro equipo está compuesto por:</p>
+            <div class="noso"></div>
+            <ul>
+                <li class="nosotros1">Astrónomos: Expertos en diversas áreas de la astronomía, desde la astrofísica hasta la astrobiología, que traen su experiencia y entusiasmo a cada curso y charla.</li>
+                <div class="noso"></div>
+                <li class="nosotros1">Educadores: Profesionales de la enseñanza con una sólida formación en pedagogía, dedicados a crear experiencias de aprendizaje accesibles y atractivas para todos.</li>
+                <div class="noso"></div>
+                <li class="nosotros1">Divulgadores Científicos: Comunicadores que se especializan en hacer que la ciencia sea comprensible y emocionante, utilizando diferentes plataformas y medios para llegar a una audiencia amplia.</li>
+                <div class="noso"></div>
+                <li class="nos">Apasionados de la Astronomía: Cada miembro de nuestro equipo comparte un amor profundo por el cosmos y un deseo genuino de inspirar a otros a explorar y entender el universo.</li>
+                <div class="noso"></div>           
+            </ul>
+            <p class="nos">Juntos, trabajamos para construir una comunidad donde la curiosidad y el conocimiento se entrelazan, fomentando el aprendizaje continuo y la apreciación por las maravillas del espacio. En AstroEduca, creemos que cada pregunta sobre el universo puede ser una puerta a nuevas aventuras y descubrimientos. ¡Te invitamos a ser parte de esta emocionante travesía!</p>
+            <div></div>
+        </article>
+        </article>
+   
+    </main>
+    <footer>
+        <p><b> ¡Únete a Nosotros!</b> En Astrolab, cada miembro de nuestro equipo está comprometido
+            con la misión de hacer de la astronomía un campo accesible y fascinante para todos. 
+            Te invitamos a ser parte de nuestra comunidad, ya sea como estudiante, colaborador o simplemente
+             como alguien que comparte la pasión por el cosmos. ¡Juntos, exploraremos las maravillas del universo!</p> 
+             <div></div>
+             <article id="Contáctanos">
+             <a href="contactanos.html" >¡Contáctanos!</a>
+           </article>
+    </footer>
+</body>
+</html>
