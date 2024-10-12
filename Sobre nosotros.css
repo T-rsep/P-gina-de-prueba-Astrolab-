@@ -1,0 +1,122 @@
+*{
+    margin: 0px;   
+}
+header{
+    display: flex;
+
+    background-color: black;
+    padding: 10px;
+    height: 70px;
+    margin: 0;
+    align-items: center;
+}
+header>*{
+    display: flex;
+    width: 450px;
+}
+.superior{
+    margin-left: 550px;
+    margin-right: 20px; 
+}
+form{
+    margin-left: 30px;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.as{
+    padding-inline-start:43px;
+}
+#imagen{
+    height: 100px;
+    margin-left: 20px;
+}
+.lab{  
+    margin-top: 40px;
+    top: 10px;
+}
+.logo{
+    display: flex;
+    align-items: center; 
+}
+#busqueda{
+    display: inline;
+    color: rgba(255, 255, 255, 0.434);
+    width: 15%; 
+}
+input{
+    width: 150px;
+    background: none;
+    color: aliceblue;
+    border-radius: 5px;
+    border : 1px solid rgb(255, 255, 255);
+    overflow: hidden;
+    height: 20px;
+    padding-inline-start: 6px;
+}
+main{
+    background-image: url("main.jpg");
+    background-size:cover;
+}
+div{
+    height: 20px;
+}
+.fondo_1{
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.229);
+    border:2px solid rgba(255, 255, 255, 0.515);
+    padding: 30px;
+    backdrop-filter: blur(3px);
+    border-radius: 10px;
+    margin: 60px;
+    margin-top: 40px;
+    
+}
+.fondo_2{
+    background-color: white;
+    padding: 30px;
+    padding-left: 90px;
+    padding-inline-end: 850px;
+}
+.poco{
+    height: 13px;
+}
+footer{
+    background-color: black;
+    color: white;
+    align-items: center;
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 2%;
+    padding-bottom: 3%;
+}
+#Contáctanos{
+    background-color: rgb(0, 0, 0);
+    margin-left: 400px;
+    height: 30px;
+    border-radius: 6px;
+    border : 1px solid rgb(255, 255, 255);
+    width: 120px;
+    transition: all 200ms;
+    position: relative;
+    padding: 5px;
+    padding-top: 10px;
+    align-items: center;
+
+}
+#Contáctanos:hover{
+    transform: scale(1.05);
+    background-color: rgba(255, 255, 255, 0.037);
+    border: 1px solid rgb(251, 251, 214);
+}
+.foto{
+    height: 280px;
+    margin-left: 760px;
+    margin-top: 45px;
+}
+.fondo_2 p{
+    padding-inline-start: 100px;
+}
